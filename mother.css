@@ -1,0 +1,159 @@
+.callout__headings {
+   color: #fff;
+   display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 300%;
+}
+
+
+.mom {
+    font-size: 175%;
+    color: pink;
+    margin-left: 15%;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+wife {
+   display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 100vh;
+
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.momlist {
+    font-size: xx-large;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+}
+
+.video {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 100vh; 
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+      
+}
+
+.do {
+    color: orange
+ 
+    
+
+}
+
+
+.image-container {
+  
+  display: flex;
+  justify-content: space-between; /* Pushes images to far left and right */
+  gap: 10px; /* Optional: adds space between images */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 48%; /* Ensures images fit side-by-side with a small gap */
+  height: auto;
+  
+
+}
+
+
+
+@keyframes floatUp {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-10vh); } 
+  }
+
+  .body {
+    background-color: blue;
+  }
+
+  .body { width: 80%;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+
+   }
+
+
+/* Styles for screens 768px or smaller (tablets/phones) */
+@media only screen and (min-width: 60%) {
+  .body{ width: 100%;
+         background-color: red;
+   }
+}
+@media only screen and (min-width: 100%) {
+  .body{ width: 100%;
+         background-color: green;
+   }
+}
+
+@media only screen and (min-width: 40%) {
+  .body{ width: 100%;
+         background-color: yellow;
+   }
+}
+
+@media only screen and (min-width: 20%) {
+  .body{ width: 100%;
+         background-color: purple;
+   }
+}
+
+@media only screen and (max-width: 10%) {
+  .body{
+    width: 100%;
+    background-color: red;
+
+  }
+  
+}
+
+@media only screen and (max-width: 110%) {
+  .body{
+    width: 100%;
+    background-color: red;
+  }
+  }
+ 
+
+.newton{
+  display: flex; /* Aligns children horizontally */
+  justify-content: space-between; /* Pushes images to left and right */
+  align-items: center; /* Centers images vertically if heights differ */
+  margin-top: 15%;
+  
+}
+
+.newton img {
+  width: 35%; /* Ensures images fit side-by-side with a small gap */
+  height: auto;
+}
+
+
+.body {
+  width: 1140px;
+  padding: 100px 0;
+  margin: 0 auto;
+  border: 4px;
+}
